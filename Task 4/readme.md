@@ -1,5 +1,4 @@
 
-.
 
 # EEG Signal Analysis for Seizure Detection
 
