@@ -72,11 +72,11 @@ The model's performance is evaluated using the following metrics:
 - **Macro Average**: The average performance across all classes.
 - **Weighted Average**: Accounts for the class imbalance by considering the support of each class.
 
-2. **ROC-AUC Score**
+ **ROC-AUC Score**
 - **Score**: 0.770
 - Interpretation: The ROC-AUC score of 0.770 indicates that the model has a good ability to distinguish between classes. A score above 0.5 means the model performs better than random chance. A score of 0.770 suggests moderately strong discriminative ability.
 
-3. **Balanced Accuracy**
+ **Balanced Accuracy**
 - **Score**: 0.490
 - Interpretation: The balanced accuracy of 0.490 indicates that the model's performance is affected by class imbalance. It shows the average recall per class, which can be further improved by tuning the model or addressing data imbalance.
 
