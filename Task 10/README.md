@@ -2,30 +2,9 @@
 
 This repository contains code for generating synthetic EEG data using a Conditional Generative Adversarial Network (CGAN) and training a classifier on the generated data. The synthetic data is evaluated for quality and used to train a classifier, which is then evaluated on real validation data.
 
-
 ## Introduction
 
 This project aims to generate synthetic EEG data using a Conditional Generative Adversarial Network (CGAN) and evaluate the quality of the generated data. The synthetic data is then used to train a classifier, which is evaluated on real validation data.
-
-## Dependencies
-
-The following dependencies are required to run the code:
-
-```bash
-torch
-numpy
-scikit-learn
-matplotlib
-scipy
-tqdm
-pandas
-```
-
-## Data Loading
-
-The EEG data is loaded and split into training and validation sets.
-
-## Model Architecture
 
 ### CGAN Architecture
 
